@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/IntelOneMono-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/IntelOneMono-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "IntelOne", sans-serif;
+    font-weight: normal;
+    color: #ffe11e;
+    background: #005592;
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 40px;
+    margin: 30px 25px;
+} 
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+/* Utility Classes */
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.dark-bg {
+    background: #222;
+}
+
+.light-font {
+    color: whitesmoke;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.icon-img {
+    width: 25px;
+}
+
+/* Layout */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 25px;
+    gap: 7px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.container {
+    width: 400px;
+}
+
+.caption {
+    display: flex;
+    margin: 0 25px;
+    gap: 40px;
+}
+
+.vault-img {
+    display: block;
+    width: 100%;
+}
+
+.item {
+    position: relative;
+}
+
+.item button {
+    align-self: center;
+    padding: 10px 15px;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.vault-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chatbox-bg {
+    display: flex;
+    background: #ffe11e;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    box-shadow: 1px 1px 5px #222;
+    cursor: pointer;
+}
+
+.chatbox {
+    width: 50%;
+    margin: auto;
+}
